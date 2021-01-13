@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     val res = arrayOf("Sim", "Não", "Talvez")
     val random = Random.Default
     override fun onCreate(savedInstanceState: Bundle?) {
+        AppCompatDelegate.setDefaultNightMode(0)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
